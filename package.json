@@ -7,8 +7,10 @@
         "start": "node server.js",
         "server": "node server.js",
         "client": "npm run devserver --prefix client",
+        "client-prod": "npm start --prefix client",
         "dev": "concurrently \"npm run server\" \"npm run client\"",
-        "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run prod --prefix client"
+        "prod": "concurrently \"npm run server\" \"npm run client-prod\"",
+        "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run prod --prefix client-prod"
     },
     "keywords": [
         "blog",
