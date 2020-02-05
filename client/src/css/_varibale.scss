@@ -1,0 +1,57 @@
+// Font Family
+$rubik: 'Rubik',
+sans-serif;
+$barlow: 'Barlow',
+sans-serif;
+$playfair: 'Playfair Display',
+serif;
+// text Colors ---------------
+$black: #5e6f84;
+$dark: #233142;
+$white: #ffffff;
+$gray: #F5F5F5;
+$red: #f5576c;
+$dark-blue: #3b2e5f;
+$blue: #0060e2;
+$light-blue: #407aff;
+$light-aqua: #33d8bb;
+$light-cyan: #0de7f5;
+$slateblue: #6e45e1;
+$light-pink: #f574d8;
+$whitesmoke: #f6f8fc;
+$lightsteelblue: #c8d1e6;
+$aliceblue: #eef1f7;
+$light-gray:#e1e1e1;
+$light-purple:#8193ff;
+// Theme Color
+$theme-color: #6e45e1;
+// Responsive Variables 
+$xx-layout: 'only screen and (min-width: 1366px) and (max-width: 1600px)';
+$xl-layout: 'only screen and (min-width: 1200px) and (max-width: 1365px)';
+$lg-layout: 'only screen and (min-width: 992px) and (max-width: 1199.98px)';
+$md-layout:'only screen and (min-width: 768px) and (max-width: 991.98px)';
+$xs-layout:'only screen and (max-width: 767px)';
+$sm-layout: 'only screen and (min-width: 576px) and (max-width: 767.98px)';
+$xss-layout:'only screen and (max-width: 480px)';
+$assetPath: "../img";
+$base-font-size: 14px;
+$line-height: 1.5;
+$thin:100;
+$extra-light: 200;
+$light:300;
+$regular: 400;
+$medium:500;
+$semi-bold: 600;
+$bold :700;
+$extra-bold :900;
+.single-testimonial {
+    p {
+        font-size: 16px;
+        line-height: 32px;
+        margin: 30px auto 32px;
+        width: 80%;
+        @media #{$xl-layout} {
+            width: 90%;
+        }
+    }
+}
